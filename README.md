@@ -8,7 +8,7 @@
 2. [Визуализация данных](lectures/lecture_2/lecture_2.ipynb)
 3. [Задачи классификации. Метрики качества](lectures/lecture_3/lecture_3.ipynb)
 4. [Деревья решений](lectures/lecture_4/lecture_4.ipynb)
-5. Линейная регрессия
+5. [Линейная регрессия](lectures/lecture_5/lecture_5.ipynb)
 6. Градиентный бустинг
 7. Перцептрон
 
