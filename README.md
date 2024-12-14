@@ -10,17 +10,12 @@
 4. [Деревья решений](lectures/lecture_4/lecture_4.ipynb)
 5. [Линейная регрессия](lectures/lecture_5/lecture_5.ipynb)
 6. [Градиентный бустинг](lectures/lecture_6/lecture_6.ipynb)
+   - [HTML версия без графиков CatBoost](lectures/lecture_6/lecture_6.html)
 7. Перцептрон
 
-> С визуализацией некоторых JS графиков может помочь [nbviewer](https://nbviewer.org/). Например, графики с использованием `Plotly` во 2 лекциии и некоторые JS графики из 6 лекции отображаются в `nbviewer`, но графики, сгенерированные `CatBoost` &ndash; нет (хотя под капотом там тоже `Plotly`).  
-> Для того чтобы графики с JS кодом и некоторые HTML блоки рендерились нормально, необходимо подписать ноутбук согласно [Trusting Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#trusting-notebooks):
-> ```bash
-> jupyter trust lecture_6.ipynb
-> ```
-> Должно появиться сообщение:
-> ```bash
-> Signing notebook: .\lecture_6.ipynb
->```
+Troubleshooting:
+- [Проблема с отображением JS графиков](#проблема-с-отображением-js-графиков)
+- [Версии Python и библиотек](#версии-python-и-библиотек)
 
 ## Лабораторные работы
 
@@ -74,3 +69,41 @@
 - [Открытые данные Сбербанка](https://www.sberbank.com/ru/analytics/opendata)
 - [Открытые данные Министерства финансов РФ](https://www.minfin.ru/opendata/)
 - [Открытые данные Министерства культуры РФ](https://opendata.mkrf.ru/opendata/)
+
+### Разное
+
+#### Проблема с отображением JS графиков
+
+С визуализацией некоторых JS графиков может помочь [nbviewer](https://nbviewer.org/). Например, графики с использованием `Plotly` во 2 лекциии и некоторые JS графики из 6 лекции отображаются в `nbviewer`, но графики, сгенерированные `CatBoost` &ndash; нет (хотя под капотом там тоже `Plotly`).  
+Для того чтобы графики с JS кодом и некоторые HTML блоки рендерились нормально, необходимо подписать ноутбук согласно [Trusting Notebooks](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#trusting-notebooks):
+```bash
+jupyter trust lecture_6.ipynb
+```
+Должно появиться сообщение:
+```bash
+Signing notebook: .\lecture_6.ipynb
+```
+
+#### Версии Python и библиотек
+
+Версия Python: 3.10.11  
+Версии установленных библиотек:
+
+| Библиотека              | Версия      |
+|-------------------------|-------------|
+| catboost                | 1.2.5       |
+| ipykernel               | 6.19.2      |
+| ipympl                  | 0.9.3       |
+| ipython                 | 8.7.0       |
+| ipython-genutils        | 0.2.0       |
+| ipywidgets              | 8.1.2       |
+| jupyterlab              | 4.3.3       |
+| jupyterlab-execute-time | 3.1.2       |
+| kaleido                 | 0.1.0.post1 |
+| matplotlib              | 3.8.4       |
+| pandas                  | 2.2.1       |
+| plotly                  | 5.19.0      |
+| scikit-learn            | 1.4.1.post1 |
+| seaborn                 | 0.13.2      |
+| shap                    | 0.45.0      |
+| xgboost                 | 2.0.3       |
