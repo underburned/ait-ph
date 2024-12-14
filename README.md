@@ -11,7 +11,7 @@
 5. [Линейная регрессия](lectures/lecture_5/lecture_5.ipynb)
 6. [Градиентный бустинг](lectures/lecture_6/lecture_6.ipynb)
    - [HTML версия без графиков CatBoost](lectures/lecture_6/lecture_6.html)
-7. Перцептрон
+7. [Перцептрон](lectures/lecture_7/lecture_7.ipynb)
 
 Troubleshooting:
 - [Проблема с отображением JS графиков](#проблема-с-отображением-js-графиков)
