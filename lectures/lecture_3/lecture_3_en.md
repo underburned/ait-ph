@@ -6,7 +6,7 @@
 
 ### Contents
 
-1. [Introduction](#3.1-Введение)
+1. [Introduction](#3.1-Introduction)
 2. [$k$-nearest neighbors method](#3.2-k-nearest-neighbors-method)
 3. [Dataset `Rain in Australia` for binary classification](#3.3-Dataset-Rain-in-Australia-for-binary-classification)
 4. [Data preprocessing](#3.4-Data-preprocessing)
