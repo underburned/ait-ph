@@ -18,7 +18,7 @@ Short lecture's chapters description in english with links to chapters in lectur
 ## Labs
 
 1. [Pandas](labs/lab_1_en.md)
-2. [Визуализация данных](labs/lab_2.md)
+2. [Data visualization](labs/lab_2_en.md)
 3. [Классификация *kNN*](labs/lab_3.md)
 4. [Классификация. Деревья решений](labs/lab_4.md)
 5. [Линейная регрессия](labs/lab_5.md)
