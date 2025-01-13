@@ -8,7 +8,7 @@
 
 1. Load data into `pandas.DataFrame` (any data source: CSV, JSON, Excel file, HTML table, etc.).
 Built-in datasets in `sklearn` also can be converted into DataFrame object: (see [how-to](https://stackoverflow.com/questions/38105539/how-to-convert-a-scikit-learn-dataset-to-a-pandas-dataset)).  
-   > TYou may need to use two datasets: one for binary classification, and the other for multiclass classification.  
+   > You may need to use two datasets: one for binary classification, and the other for multiclass classification.  
 
 2. Binary classification:
    - Provide a description of the dataset.
