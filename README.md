@@ -2,6 +2,8 @@
 
 © Петров М.В., старший преподаватель кафедры суперкомпьютеров и общей информатики, Самарский университет
 
+> [Version in english language](README_EN.md).
+
 ## Лекции
 
 1. [Библиотека Pandas](lectures/lecture_1/lecture_1.ipynb)
