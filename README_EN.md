@@ -21,7 +21,7 @@ Short lecture's chapters description in english with links to chapters in lectur
 2. [Data visualization](labs/lab_2_en.md)
 3. [Classification *kNN*](labs/lab_3_en.md)
 4. [Classification. Decision trees](labs/lab_4_en.md)
-5. [Линейная регрессия](labs/lab_5.md)
+5. [Linear regression](labs/lab_5_en.md)
 6. [Градиентный бустинг](labs/lab_6.md)
 7. Перцептрон
 
